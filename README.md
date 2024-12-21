@@ -84,3 +84,38 @@ You can watch demo video from here: [demovideo](https://youtube.com/shorts/fLQyz
 
 ## Acknowledgments
 This project uses the Mediapipe library for pose detection and custom models for hold prediction.
+And also thanks:
+Professor Xie
+Website
+@electronic{RCC,
+  author        = "Sarah Ekaireb, Mohammad Ali Khan, Prem Pathuri, Priyanka Bhatia, Ripunjay Sharma, Neha Manjunath",
+  title         = "Rock Climbing Coach Documentation - Reports",
+  url           = "https://sites.google.com/view/rock-climbing-coach/documentation/reports",
+  year          = "2022"
+}
+
+inbook with pages and note
+@inbook{liuchangzhong,
+  author        = "Changzhong Liu",
+  title         = "Yanzhiyoudao Changzhong Liu Teaches Mountain Climbing",
+  publisher     = "Xuelin Post",
+  address       = "Shanghai",
+  year          = "2012",
+  pages         = "27"
+}
+
+@misc{mmpose2020,
+    title={OpenMMLab Pose Estimation Toolbox and Benchmark},
+    author={MMPose Contributors},
+    howpublished = {\url{https://github.com/open-mmlab/mmpose}},
+    year={2020}
+}
+
+@misc{matterport_maskrcnn_2017,
+  title={Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow},
+  author={Waleed Abdulla},
+  year={2017},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/matterport/Mask_RCNN}},
+}
