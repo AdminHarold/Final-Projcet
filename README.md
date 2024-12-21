@@ -30,7 +30,7 @@ You might need to download the wheel of mediapipe from this website manually:
 
 ## Files and Directories
 - `predict_holds.py`: Contains the model and functions for hold prediction.
-- `utils/`: Helper functions used in video and pose processing.
+- `utils/`: Helper functions used in video and pose processing. We opened this folder and put everything in the main folder for convenient.
 - `videos/`: Directory containing input video files. Please download from here: [videos](https://drive.google.com/drive/folders/1EYcls7qSolRovH0nQZaxIADZVEbPgvPi?usp=sharing)
 - `images/`: Directory containing images of climbing walls. Please download from here: [images](https://drive.google.com/drive/folders/1ifc1rHQRMNd8tEw6KH2x8KI9ixlWlKp9?usp=sharing)
 - `requirements.txt`: List of required libraries.
