@@ -76,6 +76,7 @@ Follow the same process but run the local file instead the colab one.
 The processed video includes annotations of:
 - Pose landmarks such as hands, hips, and legs.
 - Climbing holds being used by the climber.
+You can watch demo video from here: [demovideo](https://youtube.com/shorts/fLQyz37ZfYI)
 
 ## Notes
 - Ensure that input videos and climbing wall images have adequate resolution and lighting for better results.
