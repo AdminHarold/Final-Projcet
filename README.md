@@ -76,6 +76,7 @@ Follow the same process but run the local file instead the colab one.
 The processed video includes annotations of:
 - Pose landmarks such as hands, hips, and legs.
 - Climbing holds being used by the climber.
+
 You can watch demo video from here: [demovideo](https://youtube.com/shorts/fLQyz37ZfYI)
 
 ## Notes
@@ -84,8 +85,11 @@ You can watch demo video from here: [demovideo](https://youtube.com/shorts/fLQyz
 
 ## Acknowledgments
 This project uses the Mediapipe library for pose detection and custom models for hold prediction.
+
 And also thanks:
+
 Professor Xie
+
 Website
 @electronic{RCC,
   author        = "Sarah Ekaireb, Mohammad Ali Khan, Prem Pathuri, Priyanka Bhatia, Ripunjay Sharma, Neha Manjunath",
