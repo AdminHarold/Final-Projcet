@@ -25,6 +25,8 @@ Install dependencies using the following commands:
 pip install mediapipe==0.8.10 opencv-python-headless numpy matplotlib pillow scipy
 pip install -r requirements.txt
 ```
+You might need to download the wheel of mediapipe from this website manually:
+[Mediapipe 0.8.10 Dashboard](https://dashboard.stablebuild.com/pypi-deleted-packages/pkg/mediapipe/0.8.10)
 
 ## Files and Directories
 - `predict_holds.py`: Contains the model and functions for hold prediction.
@@ -49,21 +51,26 @@ Climbing holds are identified in the climbing wall images using a predictive mod
 ### 5. Visualization
 Frames are annotated with detected holds and poses, and the resulting frames are compiled into a new video file.
 
-## How to Run
+## How to Run on Colab
 1. Mount your Google Drive in Colab.
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
    ```
 2. Clone or copy the project files into your Google Drive.
-3. Install required dependencies as shown above.
-4. Set the `VIDEO_PATH` and `HOLDS_PATH` variables in the code to point to the appropriate files.
-5. Run the cells sequentially to process the video and generate annotated output.
-6. Download the processed video using:
+3. Create a folder called videos and copy those files into that folder: [videos](https://drive.google.com/drive/folders/1EYcls7qSolRovH0nQZaxIADZVEbPgvPi?usp=sharing)
+4. Create a folder called images and copy those files into that folder: [images](https://drive.google.com/drive/folders/1ifc1rHQRMNd8tEw6KH2x8KI9ixlWlKp9?usp=sharing)
+5. Install required dependencies as shown above.
+6. Set the `VIDEO_PATH` and `HOLDS_PATH` variables in the code to point to the appropriate files.
+7. Run the cells sequentially to process the video and generate annotated output.
+8. Download the processed video using:
    ```python
    from google.colab import files
    files.download('output_video.avi')
    ```
+## How to Run on Local
+Follow the same process but run the local file instead the colab one.
+
 
 ## Example Output
 The processed video includes annotations of:
